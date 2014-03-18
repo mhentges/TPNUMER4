@@ -67,7 +67,11 @@ public class Main
       System.err.println(ex.getMessage());
     }
   }
-
+/*
+* Faire une fonction prenant en entrée les paramètres 
+* du Insert au lieu d'une fonction permettant un insert 
+* en particulier
+*/
   private void doInsertTest()
   {
     System.out.print("\n[Performing INSERT] ... ");
