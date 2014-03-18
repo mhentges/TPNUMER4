@@ -26,6 +26,10 @@ public class Main {
         if ("Hello".equals(inSocket.readLine())) {
             System.out.println("Server is nice :)");
         }
+        
+        /*
+        * Utiliser un Do {} while(); contenant la condition à vérifier, au lieu de poser sa propre condition
+        */
         int b=3;
         while(b==3){
         Scanner sc=new Scanner(System.in);
