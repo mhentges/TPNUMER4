@@ -58,6 +58,10 @@ public class Server {
                     System.out.println("Client is nice :) Let's be polite...");
                     out_socket.println("Hello");
                 }
+                /*
+                * Utiliser une boucle do {] while(); avec la condition à vérifier
+                * au lieu de passer par un while avec une condition fixé initialement
+                */
                int e=3;
                 while(e==3){
                 String c=in_socket.readLine();
